@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>iphone</title>
+  <style type="text/css">
+    body {
+      overflow: hidden;
+    }
+    .kindle {
+      position: relative;
+      margin: 10px auto;
+      background: url("/img/kindle.png") no-repeat center center;
+      width: 453px;
+      height: 671px;
+      background-size: cover;
+    }
+    #mobileframe {
+      background: white;
+      position: absolute;
+      top: 65px;
+      left: 47px;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    var ua = navigator.userAgent;
+    if (ua && ua.indexOf("Mobile") != -1 && ua.indexOf("iPad") == -1)
+      if (confirm("La version mobile se trouve sur http://m.cemidi.fr/"))
+        top.location.href = "http://m.cemidi.fr/";
+  </script>
+  <div class="kindle"> 
+    <iframe id="mobileframe" src="/" width="360" height="490" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" allowtransparency="true"></iframe>
+  </div>
+</body>
+</html>
