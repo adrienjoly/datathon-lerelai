@@ -5,23 +5,57 @@
 	margin: 0;
 	color: #333;
 	box-sizing: padding-box;
+	background-size: 32px 32px;
+	background-repeat: no-repeat;
 }
 
 body {
 	font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
+	font-style: normal;
+	font-weight: 300;
 	background-color: #ccc;
 	padding: 5px;
 }
 
 h1, h2, h3 {
 	font-weight: 500;
-  font-style: normal;
+	font-style: normal;
+	margin-bottom: 0.2em;
+}
+
+img {
+	border: 0;
+	width: 32px;
+	height: 32px;
 }
 
 .ref {
 	font-family: 'Lora' !important;
-  font-style: italic;
-  font-weight: 400;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.lnkFiche {
+	display: block;
+	border: 2px solid #555;
+	line-height: 52px;
+	padding: 0 10px;
+	background-position: right 10px center;
+	margin: 10px 0;
+}
+
+.lnkStore {
+	display: inline-block;
+	line-height: 52px;
+	padding-left: 48px;
+	padding-right: 10px;
+	background-position: left 5px center;
+}
+
+.iconAdd {
+	background-image: url("/img/icon-add.png");
+}
+
+.iconAgri {
+	background-image: url("/img/icon-agri.png");
 }
