@@ -93,6 +93,14 @@ img.imgFull {
 	background-image: url("/img/icon-agri.png");
 }
 
+.iconEnergy {
+	background-image: url("/img/icon-energy.png");
+}
+
+.iconWater {
+	background-image: url("/img/icon-water.png");
+}
+
 section {
 	height: 490px; /* based on iframe height from kindle.html */
 }
