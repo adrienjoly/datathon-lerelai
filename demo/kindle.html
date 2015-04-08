@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>iphone</title>
+  <title>le relais</title>
   <style type="text/css">
     body {
       overflow: hidden;
@@ -25,9 +25,8 @@
 <body>
   <script>
     var ua = navigator.userAgent;
-    if (ua && ua.indexOf("Mobile") != -1 && ua.indexOf("iPad") == -1)
-      if (confirm("La version mobile se trouve sur http://m.cemidi.fr/"))
-        top.location.href = "http://m.cemidi.fr/";
+    if (ua && ua.indexOf("Mobile") != -1 && ua.indexOf("iPad") == -1 && confirm("Consulter version mobile ?"))
+      top.location.href = "/";
   </script>
   <div class="kindle"> 
     <iframe id="mobileframe" src="/" width="360" height="490" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" allowtransparency="true"></iframe>
